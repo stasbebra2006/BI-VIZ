@@ -1,0 +1,19 @@
+# macOS system files
+.DS_Store
+
+# Compiled C object files and executables
+*.o
+*.out
+*.exe
+*.obj
+
+# Debug / dependency files
+*.dSYM/
+*.log
+
+# Visual Studio / VS Code settings
+.vscode/
+.vs/
+
+#C Lion
+.idea/
