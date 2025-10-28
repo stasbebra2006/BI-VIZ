@@ -1,0 +1,9 @@
+matplotlib=3.7.3
+pillow=9.2.0
+mpmath=1.2.1
+scikit-image=0.19.2
+sympy=1.10.1
+ipywidgets=8.1.1
+scipy=1.11.4
+scikit-learn=1.6.1
+numpy = 1.26.4
