@@ -17,3 +17,6 @@
 
 #C Lion
 .idea/
+
+#CSV
+*.csv
