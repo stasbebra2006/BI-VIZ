@@ -1,0 +1,45 @@
+Omlouvám se za nedorozumění. Pochopil jsem to tak, že chcete přepis celého dokumentu, ne uložení toho původního shrnutí.
+
+Jako AI nemohu přímo vytvořit soubor ke stažení, ale připravil jsem text přesně tak, abyste si ho mohl jedním kliknutím zkopírovat (vpravo nahoře v rámečku "Copy") a uložit do poznámkového bloku jako `.txt` soubor.
+
+Zde je obsah shrnutí:
+
+```text
+SHRNUTÍ PREZENTACE: GRAFY A SOCIÁLNÍ SÍTĚ
+Předmět: BI-VIZ
+
+1. HLAVNÍ BODY A POJMY
+- Motivace: Analýza se zaměřuje na vztahy mezi aktéry, ne na aktéry samotné. Cílem je najít vzorce a vlastnosti sítě.
+- Typy sítí: Technologické, biologické, sociální a informační. Pozor na rozdíl mezi sociální sítí (struktura vazeb) a sociálním médiem (platforma jako Facebook).
+- Definice grafu: Neorientovaný graf G=(V, E) má vrcholy V a neuspořádané hrany E. Orientovaný graf má hrany se směrem (šipky).
+- Reprezentace: Vrcholy = aktéři (entity), Hrany = vztahy (mohou mít váhu).
+
+2. ANALÝZA GRAFŮ
+- Základní vlastnosti: Počet vrcholů a hran, hustota, nejkratší cesta, průměr grafu, komponenty souvislosti.
+- Hustota grafu: Poměr existujících hran k maximálnímu možnému počtu (0 až 1).
+- Nejkratší cesta: Nejkratší spojení mezi uzly (algoritmy Dijkstra, Bellman-Ford).
+- Komponenta souvislosti: Část grafu, která je vnitřně propojená.
+- Reciprocita: Pravděpodobnost vzájemných vazeb u orientovaných grafů.
+
+3. MÍRY CENTRALITY (DŮLEŽITOST VRCHOLŮ)
+- Stupňová (Degree): Počet vazeb. Určuje aktivitu (Hub vs. Autorita).
+- Blízkosti (Closeness): Průměrná vzdálenost k ostatním. Čím blíže, tím rychleji ovlivní ostatní.
+- Mezilehlosti (Betweenness): Frekvence výskytu na nejkratších cestách. Funguje jako "most" pro tok informací.
+- Vlastního vektoru (Eigenvector): Důležitost závisí na důležitosti sousedů (princip PageRank).
+- Shlukování (Clustering): Míra propojení sousedů uzlu (trojúhelníky).
+
+4. VIZUALIZACE (GRAPH DRAWING)
+- Force-directed layouts (Silou řízené): Algoritmy simulující fyzikální síly (pružiny) pro rovnoměrné rozložení (např. Fruchterman-Reingold).
+- Layered layouts (Hierarchické): Uzly ve vrstvách, vhodné pro acyklické grafy a hierarchie.
+- Circular layouts (Kruhové): Uzly v kruhu, důraz na vazby mezi skupinami.
+- Tree layouts (Stromové): Pro dendrogramy a stromy.
+
+5. PROBLEMATICKÉ PŘÍPADY A ŘEŠENÍ
+- Hairball (Chuchvalec): Příliš hustá síť. Řešení: filtrování, agregace, zobrazení jen klíčových uzlů.
+- Snowstorm: Mnoho izolovaných komponent. Řešení: obohacení dat, agregace.
+- Starburst: Dominantní uzel. Řešení: odstranění uzlu, zaměření na jeho vazby.
+
+6. NÁSTROJE
+- Doporučené: Gephi, Cytoscape, Graphviz.
+- Knihovny: NetworkX (Python) - primárně na analýzu, vizualizace je jen základní.
+```
